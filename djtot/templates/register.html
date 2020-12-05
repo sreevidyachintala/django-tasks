@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>:: Registration Page ::</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/reg.css' %}">
+	</head>
+	<body>
+
+			<div class="container">
+				<h1>Registration Page</h1>
+				<label>FirstName:
+					<input type="text" name="fname"  placeholder="Enter FirstName">
+				</label>
+				<label>LastName:
+					<input type="text" name="lname"  placeholder="LastName">
+				</label>
+				<label>Email:
+					<input type="email" name="emailid"  placeholder="Email">
+				</label>
+				<label>Mobilenumber:
+					<input type="number" name="Mobilenumber"  placeholder="Mobilenumber">
+				</label>
+				<label>
+					<input type="submit" value="Register" class="save">
+				</label>
+			</div>
+	</body>
+</html>

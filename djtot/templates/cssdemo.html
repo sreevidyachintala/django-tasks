@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample css</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/csssample.css' %}">
+	<style type="text/css">
+		p{
+			background-color: green;
+			margin-right: 230px;
+			margin-left:  350px;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<center><h2>Inline css</h2></center>
+	<p style="background-color: pink;color:red;padding:10px;margin-left: 350px;margin-right: 230px;font-style: italic;">this is Inline css </p>
+
+	<center><h2>Internal css</h2></center>
+	<p>this is Internal css</p>
+
+
+
+	<h2>EXternal css</h2>
+	<h5>This is EXternal css </h5>>
+</body>
+</html>

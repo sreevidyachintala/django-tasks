@@ -1,0 +1,29 @@
+.container {
+				border: 1px solid blue;
+				width: 40%;
+				margin-left:27% ;
+				margin-top: 1%;
+				padding: 30px;
+				font-family: italic;
+				box-shadow: 5px 10px 10px 10px;    
+						}
+						h1 {
+							text-align: center;
+							
+						}
+				input{
+					width: 98%;
+					padding: 10px;
+					background-color: #FFF8DC;
+					border: none;
+					border-radius: 5px;
+					margin:5px 0 20px 0;
+					font-family: italic;
+				}
+				.save{
+					background-color: green;
+					color:white;
+					width: 20%;
+					
+					
+				}
