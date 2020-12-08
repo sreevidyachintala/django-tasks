@@ -29,3 +29,11 @@ def login(request):
 
 def register(request):
 	return render(request,'register.html')
+
+
+def js(request):
+	return render(request,'js.html')
+
+
+def arit(request):
+	return render(request,'arith.html')

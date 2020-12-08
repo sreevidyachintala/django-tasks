@@ -16,10 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from djtot import views
+from dbt import views as v
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.hello),
+    path('home/',views.hello),
     path('about/',views.about),
     path('rcd/<str:name>/',views.rc),
     path('tb/<int:n>/',views.tb),
@@ -27,6 +28,10 @@ urlpatterns = [
     path('de/',views.sample),
     path('login/',views.login),
     path('register/',views.register),
+    path('js/',views.js),
+    path('arit/',views.arit),
+    path('',v.home),
+    path('lrbt/',v.lrbttask),
 
 
 ]

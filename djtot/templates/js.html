@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+	<link rel="stylesheet" type="text/javascript" href="{% static 'js/sample.js' %}">
+
+	<script type="text/javascript">
+		alert("hiii")
+	</script>
+	<style type="text/css">
+		form{
+
+			border-radius: 23px;
+			margin-right: 430px;
+			margin-left: 430px;
+
+			background-color: cadetblue;
+		}
+
+		input{
+			margin-top: 9px;
+			margin-bottom: 9px;
+			margin-left: 73px;
+		}
+		button{
+			color: green;
+			border-radius: 12px;
+			margin-left: 100px;
+			font-size: 12px;
+			padding: 9px;
+			background-color: blue;
+		}
+	</style>
+	
+</head>
+<body>
+	<h2>javascript files</h2>
+	<form>
+		<input type="text" placeholder="enter name" name="" id="n1"><br></br>
+		<input type="text" placeholder="enter age" name="" id="p1">
+		<!-- <button type="submit">submit</button> -->
+		<input type="submit" onclick="Ad()" value="submit">
+
+	</form>
+	
+</body>
+</html>

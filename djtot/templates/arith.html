@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arithematic Operations</title>
+	<style type="text/css">
+		
+			form{
+					margin-left: 30%;
+					margin-right: 30%;
+					padding: 30px;
+					margin-top: 9%;
+					border-radius: 23px;
+					background-color: lightseagreen;
+				}
+				#a{
+					padding: 10px;
+					border-radius: 12px;
+					background-color: aqua;
+					width: 90%
+				}
+				#b{
+					padding: 10px;
+					border-radius: 12px;
+					background-color: aqua;
+					width: 90%
+				}
+				#bt{
+					padding: 10px;
+					border-radius: 12px;
+					background-color: green;
+					margin-right: 30%
+					width: 90%
+				}
+		
+	</style>
+	<script type="text/javascript">
+		function Arithematic(){
+			var t=document.getElementById('a').value
+			var y=document.getElementById('b').value
+			document.getElementById('res').innerText="add of"+t+'and'+y+'is'+(parseInt(t)+parseInt(y))+"\n"+"subtraction of"+t+'and'+y+'is'+ (parseInt(t)-parseInt(y))+"\n"+"multiplication of"+t+'and'+y+'is'+(parseInt(t)*parseInt(y))
+			}
+	</script>
+</head>
+<body>
+
+	<form>
+		a   <input type="number" placeholder="enter a value" name="" id="a"><br></br>
+		b   <input type="number" placeholder="enter b value" name="" id="b"><br></br>
+		<input type="button" onclick="Arithematic()" id="bt" value="validate">
+
+	</form>
+
+	<h2 style="margin-left: 30%" >output:</h2>
+	<h4 id="res"></h4>
+	
+
+</body>
+</html>
